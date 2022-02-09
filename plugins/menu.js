@@ -44,9 +44,9 @@ const defaultMenu = {
 │ ✾ Role: %role
 ╰❑
 ╭─❑ 「 INFORMASI 」 ❑──
-│ Bot ini masih tahap beta
-│ apabila ada bug/eror harap
-│ lapor ke owner
+│ TOLONG JGN DI SPAM
+│ BOT INI MENGUNAKAN MULTI DEVICE
+│ NEMU BUG? LAPOR OWNER
 ╰❑
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
@@ -166,15 +166,15 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: '💠 Source Code',
-               url: 'https://github.com/ilmanhdyt/ShiraoriBOT-Md'
+               displayText: '💠 GITHUB',
+               url: 'https://github.com/PilarV2'
              }
 
            },
              {
              callButton: {
                displayText: 'Nomor Owner',
-               PhoneNumber: '0813-5104-7727'
+               PhoneNumber: '08-962-555-6161'
              }
 
            },
